@@ -1,2 +1,2 @@
 # Web-development
-Lab works for web development discipline
+Lab works for web development discipline. Owned by Beibit Suleimen
