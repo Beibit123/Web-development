@@ -1,0 +1,229 @@
+<html>
+    <head>
+        <title>Microsoft - домашняя страница</title>
+        <link rel="shortcut icon" href="Microsoft favicon.png">
+        <style>
+            .wrapper{
+                background-color: white;
+            }
+            body {
+                font-size: 13px;
+                font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+                min-width: 320px;
+                color: #000;
+                background-color: #fff;
+            }
+            a:hover:after{
+                text-decoration: underline;
+            }
+            /*----------------
+ 	            Header Section
+            ----------------*/
+            .header{
+                top: 0px;
+                left: 0;
+                right: 0;
+                background-color:white;
+                width: 100%;
+                height:48px;
+            }
+            .header .content{
+                width: 90%;
+                margin:auto;
+                display: flex;
+                overflow: hidden;
+            }
+            .header .content .left{
+                width:50%;
+                float: left;
+                margin-left:10px;
+            }
+            
+            .wrapper .header .content .left a img{
+                padding:10px;
+                float: left;
+                width:110px;
+            }
+            .header .content .left nav{
+                
+                padding:15px;
+                display: flex;
+                float: left;
+                list-style: none;
+                
+            }
+            .header .content .left nav li{
+                font-family: inherit;
+                float: left;
+                margin-left:20px;
+            }
+            .header .content .left nav li a{
+                text-decoration: none;
+                font-size: 14px;
+                color: #262626;
+            }
+            .header .content .right{
+                width:50%;
+                float: left;
+                display: flex;
+            }
+            .header .content .right nav{
+                padding:15px;
+                display: flex;
+                float: right;
+                list-style: none;
+            }
+            .header .content .right nav li{
+                font-family: inherit;
+                float: right;
+                margin-left:20px;
+            }
+            .header .content .right nav li a{
+                text-decoration: none;
+                font-size: 14px;
+                color: #262626;
+            }
+            /*----------------
+ 	            Main Section
+            ----------------*/
+            .middle{
+                width: 100%;
+            }
+            .middle .content .back-photo{
+                width: 90%;
+                margin:auto;
+            }
+            .middle .content img{
+                width: 100%;
+            }
+            .middle .content .text-on-photo{
+                position: absolute;
+                top:190px;
+                left:150px;
+            }
+            .middle .content .text-on-photo h1{
+                font-size: 30px;
+            }
+            .middle .content .text-on-photo p{
+                font-size: 15px;
+            }
+            .middle .content .text-on-photo p{
+                font-size: 15px;
+            }
+            .middle .content .text-on-photo .buttons .button1{
+                padding: 10px 20px;
+                background-color: black;
+                color: white;
+                outline:none;
+                margin-right: 40px;
+                font-weight: bold;
+                font-size: 15px;
+            }
+            .middle .content .text-on-photo .buttons .button2{
+                padding: 10px 20px;
+                background-color:#e8e8e8;
+                color: black;
+                outline:none;
+                font-weight: bold;
+                font-size: 15px;
+                border: 0px;
+            }
+            .middle .content .articles{
+                display: flex;
+                width:90%;
+                margin:auto;
+                margin-top:20px;
+            }
+            .middle .content .articles .head-of-article{
+                font-size: 20px;
+                line-height: 24px;
+                font-weight: 600;
+                opacity: .95;
+                padding-top: 1px;
+                padding-bottom: 2px;
+                margin-top: 37px;
+            }
+            .middle .content .articles p{
+                font-size: 15px;
+                font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+            }
+            .article1{
+                margin-right: 30px;
+            }
+            .article2{
+                margin-right: 20px;
+            }
+            .article3{
+                margin-right: 25px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <div class="content">
+                    <div class="left">
+                        <a href="https://www.microsoft.com/ru-kz/"><img src="Microsoft.png" alt=""></a>
+                        <nav>
+                            <li><a href="https://www.microsoft.com/ru-ru/microsoft-365?rtc=1">Microsoft 365</a></li>
+                            <li><a href="https://www.microsoft.com/ru-ru/microsoft-365?rtc=1">Office</a></li>
+                            <li><a href="https://www.microsoft.com/ru-ru/microsoft-365?rtc=1">Windows</a></li>
+                            <li><a href="https://www.microsoft.com/ru-ru/microsoft-365?rtc=1">Поддержка</a></li>
+                        </nav>
+                    </div>
+                    <div class="right">
+                        <nav>
+                            <li style="margin-left: 260px;"><a href="https://www.microsoft.com/ru-ru/microsoft-365?rtc=1">Все продукты Microsoft ˅</a></li>
+                            <li><a href="https://www.microsoft.com/ru-ru/microsoft-365?rtc=1">Поиск </a></li> <img src="Eye.jpg" alt="" style="width:25px; background-color: transparent;">
+                            <li><a href="https://www.microsoft.com/ru-ru/microsoft-365?rtc=1">Войти</a></li> <img src="Enter.jpg" alt="" style="width:30px; ">
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <section class="middle">
+                <div class="content">
+                    <div class="back-photo"><img src="Hero.jpg" alt=""></div>
+                    <div class="text-on-photo">
+                        <h1>Microsoft 365</h1>
+                        <p>Приложения Office премиум, дополнительное облачное хранилище, <br>
+                            продвинутые инструменты обеспечения безопасности — все в одной <br>
+                            удобной подписке</p>
+                        <div class="buttons">
+                            <button class="button1">До 6 человек   ></button>
+                            <button class="button2">Для 1 человека   ></button>
+                        </div>
+                    </div>
+                    <div class="articles">
+                        <div class="article1">
+                            <img src="i1.jpg" alt="" style="width:300px">
+                            <p>
+                                <span class="head-of-article">Microsoft Teams</span><br>
+                                Общайтесь, проводите собрания, звоните и сотрудничайте.</p>
+                        </div>
+                        <div class="article2">
+                            <img src="i2.jpg" alt="" style="width:300px">
+                            <p>
+                                <span class="head-of-article">Microsoft Edge</span><br>
+                                Потрясающая производительность, больше конфиденциальности, продуктивности и дополнительных возможностей.</p>
+                        </div>
+                        <div class="article3">
+                            <img src="i3.jpg" alt="" style="width:300px">
+                            <p>
+                                <span class="head-of-article">Microsoft One Drive</span><br>
+                                Сохраняйте свои файлы и фотографии на OneDrive — они будут доступны с любого устройства и где угодно.</p>
+                        </div>
+                        <div class="article4">
+                            <img src="i4.jpg" alt="" style="width:300px">
+                            <p>
+                                <span class="head-of-article">Обновления Windows 10</span><br>
+                                Предоставляя новые функции, которые помогут вам успевать больше, общаться чаще и экономить время.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer">
+
+            </footer>
+        </div>
+    </body>
+</html>
